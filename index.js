@@ -4,7 +4,7 @@ function iterativeLog(array) {
   })
 }
  function iterate(callback) {
-  const colors = [red, blue, white, green, brown]
+  const colors = ["red", "blue", "white", "green", "brown"]
   colors.forEach(callback)
   return colors
 }
