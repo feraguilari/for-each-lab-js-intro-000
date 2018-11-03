@@ -4,9 +4,9 @@ function iterativeLog(array) {
   })
 }
  function iterate(callback) {
-  const lotteryNumbers = [2, 4, 5, 2]
-  lotteryNumbers.forEach(callback)
-  return lotteryNumbers 
+  const colors = [red, blue, white, green, brown]
+  colors.forEach(callback)
+  return colors
 }
  function doToArray(array, callback) {
   array.forEach(callback)
